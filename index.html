@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Salwan Sabil's Personal Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="brand">Salwan Sabil</div>
+        <div class="links">
+          <a href="#about">About</a>
+          <a href="#resume">Resume</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About Me -->
+      <section id="about">
+        <div class="container grid">
+          <div class="col-12">
+            <h1>Salwan Sabil's Personal Website</h1>
+            <h2>About me</h2>
+            <p class="lead">I recently graduated this Summer 2025 from the University of Massachusetts Lowell with a Bachelor of Science in Computer Science and a Minor in Mathematics. I am seeking full-time opportunities in software engineering/development and data engineering/analysis. With a strong foundation in computing and programming, my technical skillset includes C, C++, C#, Java, JavaScript, HTML, and CSS. My academic background features coursework such as Computing I-IV, Assembly Language Programming, Computer Architecture, Calculus I-III, Linear Algebra, Physics 1, Discrete Mathematics I-II, Logic Design, Software Engineering, Analysis of Algorithms, Operating Systems, Machine Learning, and Artificial Intelligence. I have a distinct interest in artificial intelligence applications and have pursued mathematical principles to build a strong foundation in computer science as well as data science fundamentals.</p>
+            <p class="lead">During my internship at DePaula & Clark, Inc., I partnered with account managers to streamline reconciliation processes by assisting in developing automated workflows across cloud-based platforms, including QuickBooks, Webgility, and Shopify. I helped refine and resolve issues in API-based integrations between financial systems, addressed data‑mapping errors, and documented procedures to improve reporting accuracy and accelerate month‑end close cycles. I analyzed financial data to create weekly performance reports, and I maintained and validated transaction data to ensure completeness and accuracy across integrated systems.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Resume -->
+      <section id="resume">
+        <div class="container grid">
+          <div class="col-12">
+            <h2>Resume</h2>
+            <p class="muted">View or download my latest resume using the link below.</p>
+            <a class="btn" href="Salwan-Sabil-Resume.docx" target="_blank" rel="noopener">View My Resume</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects">
+        <div class="container">
+          <h2>Projects</h2>
+          <p class="muted">This section highlights some of my academic and personal projects. Click through for details.</p>
+          <div class="grid" style="margin-top: 16px;">
+            <article class="card col-4">
+              <div class="tag">AI • Python</div>
+              <h3>Self-Driving Car Decision Making: Spring 2025</h3>
+              <p class="muted">Designed and developed an AI-based decision-making system for autonomous vehicles using a Naïve Bayes classifier and a custom neural network.</p>
+              <a class="btn" href="AI_Final_Report.pdf" target="_blank" rel="noopener" aria-label="Self-Driving Car Decision Making Final Report">View Final Report</a>
+              <a class="btn" href="https://colab.research.google.com/drive/1e7-j8IWPwWG44_PUqfATW6gOhvN5YveL" target="_blank" rel="noopener" aria-label="Self-Driving Car Decision Making Code">View Code</a>
+            </article>
+
+            <article class="card col-4">
+              <div class="tag">C# • Game</div>
+              <h3>Educational Game: Fall 2024</h3>
+              <p class="muted">An educational racing game for elementary students. Players answer subject-based questions to move their car avatar along a track.</p>
+              <a class="btn" href="https://github.com/andrade01986219/FlashCars" target="_blank" rel="noopener" aria-label="Educational Game GitHub Repository">View project</a>
+            </article>
+
+            <article class="card col-4">
+              <div class="tag">C++ • OOP</div>
+              <h3>Computing IV Portfolio: Spring 2024</h3>
+              <p class="muted">Eight unique projects completed over the semester, all programmed in C++ using OOP principles.</p>
+              <a class="btn" href="Sabil_Salwan_COMP4Spring2024.pdf" target="_blank" rel="noopener" aria-label="Computing IV Portfolio PDF">View project</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact">
+        <div class="container">
+          <h2>Contact Me</h2>
+          <p class="muted">Reach me directly using the information below.</p>
+          <p>Email: <a href="mailto:sabilsalwan@gmail.com">sabilsalwan@gmail.com</a></p>
+          <p>Phone: 781-513-2284</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container" style="display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;">
+        <small>© <span id="year"></span> Salwan Sabil</small>
+        <div style="display:flex; gap:14px;">
+          <a class="muted" href="#about">About</a>
+          <a class="muted" href="#projects">Projects</a>
+          <a class="muted" href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+  <!-- <script src="script.js"></script> -->
+</html>
